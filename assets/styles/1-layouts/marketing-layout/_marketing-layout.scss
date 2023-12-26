@@ -66,18 +66,17 @@ section#intro {
     width: 50%;
     max-width: 1040px;
     margin: 0 auto;
-    margin-top: -18%;
+    margin-top: -7%;
     padding-top: 0;
     padding-bottom: 0;
 
-    @media  (max-width: 65rem) {
+    @media (max-width: 65rem) {
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
       max-width: 100%;
       padding: 0;
-      margin-top: -3.5rem;
     }
   }
 
@@ -128,7 +127,9 @@ section#intro {
   margin: 0 auto;
   padding: 16px;
   border-radius: 4px;
-  box-shadow: 0 2px 2px rgba(constants.$black, 0.24), 0 0 2px rgba(constants.$black, 0.12);
+  box-shadow:
+    0 2px 2px rgba(constants.$black, 0.24),
+    0 0 2px rgba(constants.$black, 0.12);
   box-sizing: border-box;
   transition: all 0.3s ease-in;
 
@@ -155,7 +156,7 @@ section#intro {
     min-width: 160px;
     @include mixins.font-size(16);
     border-radius: 48px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     box-sizing: border-box;
     cursor: pointer;
   }
@@ -187,7 +188,9 @@ section#intro {
   height: auto;
   margin: auto;
   padding: 24px;
-  box-shadow: 0 6px 6px rgba(10, 16, 20, 0.15), 0 0 52px rgba(10, 16, 20, 0.12);
+  box-shadow:
+    0 6px 6px rgba(10, 16, 20, 0.15),
+    0 0 52px rgba(10, 16, 20, 0.12);
 
   @media (max-width: 600px) {
     margin: 16px auto 0;
@@ -210,7 +213,7 @@ section#intro {
   }
 
   img {
-    margin: 16px ;
+    margin: 16px;
   }
 
   .card-text-container {
@@ -234,7 +237,7 @@ section#intro {
   font-weight: 600;
   @include mixins.line-height(40);
   border-radius: 48px;
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.50);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   cursor: pointer;
 
@@ -285,7 +288,7 @@ aio-shell:not(.view-SideNav) {
   }
 }
 
-div[layout=row]{
+div[layout='row'] {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -297,30 +300,31 @@ div[layout=row]{
 }
 
 .layout-row {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .home-rows {
-    overflow: hidden;
-    @media (max-width: 600px) {
-      margin: 0;
-    }
+  overflow: hidden;
+  @media (max-width: 600px) {
+    margin: 0;
+  }
 }
 
 .background-superhero-paper {
-    background-size: 100%;
-    background-blend-mode: multiply;
+  background-size: 100%;
+  background-blend-mode: multiply;
 }
 
 .home-row {
   max-width: 920px;
   margin: 32px auto;
 
-  .promo-img-container, .text-container {
+  .promo-img-container,
+  .text-container {
     align-self: flex-start;
     min-width: 30%;
 
-    @media(max-width: 600px) {
+    @media (max-width: 600px) {
       max-width: 100%;
       text-align: center;
 
@@ -350,10 +354,10 @@ div[layout=row]{
 }
 
 .marketing-banner {
-  margin-top: 0;
   padding: 32px;
 
   @media (max-width: 600px) {
+    margin-top: 56px;
     padding: 18px;
   }
 

@@ -56,7 +56,7 @@ footer {
 
     p {
       text-align: center;
-      margin: 10px auto 5px !important;
+      margin: 10px auto 5px;
 
       @media (max-width: 480px) {
         text-align: left;
@@ -70,7 +70,6 @@ footer {
       gap: $grid-gap;
       margin: 0 auto 40px;
       justify-content: center;
-      align-items: center;
 
       ul {
         list-style-position: inside;
