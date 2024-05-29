@@ -8,8 +8,8 @@
   $is-dark-theme: map.get($theme, is-dark);
 
   .background-sky {
-    background: linear-gradient(145deg, mat.get-color-from-palette($primary, 900), if($is-dark-theme, mat.get-color-from-palette($primary, 700), #42a5f5));
-    color: mat.get-color-from-palette($foreground, text);
+    background: linear-gradient(145deg, mat.m2-get-color-from-palette($primary, 900), if($is-dark-theme, mat.m2-get-color-from-palette($primary, 700), #42a5f5));
+    color: mat.m2-get-color-from-palette($foreground, text);
   }
 
   section#intro {
@@ -60,7 +60,7 @@
   }
 
   .marketing-banner {
-    background-color: if($is-dark-theme, mat.get-color-from-palette($primary, 800), mat.get-color-from-palette($primary, 600));
+    background-color: if($is-dark-theme, mat.m2-get-color-from-palette($primary, 800), mat.m2-get-color-from-palette($primary, 600));
 
     .banner-headline {
       color: constants.$white;

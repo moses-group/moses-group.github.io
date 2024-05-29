@@ -19,7 +19,7 @@
               background-color: constants.$white;
 
               &-inverse {
-                background-color: if($is-dark-theme, mat.get-color-from-palette($background, background), constants.$deepgray);
+                background-color: if($is-dark-theme, mat.m2-get-color-from-palette($background, background), constants.$deepgray);
               }
             }
           }

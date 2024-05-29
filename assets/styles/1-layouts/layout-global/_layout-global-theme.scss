@@ -9,7 +9,7 @@
   html,
   body,
   .content {
-    background: if($is-dark-theme, mat.get-color-from-palette($background, background), constants.$white);
+    background: if($is-dark-theme, mat.m2-get-color-from-palette($background, background), constants.$white);
   }
 
   @if $is-dark-theme {

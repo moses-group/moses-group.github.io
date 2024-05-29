@@ -10,13 +10,13 @@
   mat-toolbar.app-toolbar {
     @if $is-dark-theme {
       &.mat-primary {
-        background: mat.get-color-from-palette($primary, darker)
+        background: mat.m2-get-color-from-palette($primary, darker)
       }
     }
 
     // HOME PAGE OVERRIDE: TOPNAV TOOLBAR
     .page-home & {
-      background: if($is-dark-theme, mat.get-color-from-palette($primary, darker), constants.$blue);
+      background: if($is-dark-theme, mat.m2-get-color-from-palette($primary, darker), constants.$blue);
     }
 
     mat-icon {

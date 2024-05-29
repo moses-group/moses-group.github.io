@@ -35,7 +35,7 @@
       }
 
       a {
-        color: mat.get-color-from-palette($foreground, text);
+        color: mat.m2-get-color-from-palette($foreground, text);
       }
 
       .close-button {
@@ -60,7 +60,7 @@
         }
 
         .no-results {
-          color: mat.get-color-from-palette($foreground, text);
+          color: mat.m2-get-color-from-palette($foreground, text);
         }
 
         a {
